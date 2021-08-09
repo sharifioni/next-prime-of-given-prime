@@ -6,6 +6,7 @@ Created on Mon Aug  9 11:51:22 2021
 """
 
 def is_prime(x):
+    flag=1
     for  i in range(2,x):
         if(x%i==0):
             flag=0
